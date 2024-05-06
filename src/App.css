@@ -1,0 +1,20 @@
+@keyframes flashAnimation {
+  0% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: brightness(75%);
+  }
+  100% {
+    transform: scale(1);
+    filter: brightness(100%);
+  }
+}
+
+.flash-animation {
+  animation-name: flashAnimation;
+  animation-duration: 2s; /* Thời gian một vòng hoàn thành */
+  animation-iteration-count: infinite; /* Lặp vô hạn */
+}
