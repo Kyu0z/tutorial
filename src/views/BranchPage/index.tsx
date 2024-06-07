@@ -1,4 +1,5 @@
 import RecentPurchase from '@src/components/RecentPurchase';
+import Search from '@src/components/Search';
 import { useState } from 'react';
 
 const BranchPage = () => {
@@ -91,6 +92,9 @@ const BranchPage = () => {
           <div>
             <h3 className='text-yellow-700 text-2xl font-bold pb-4'>Địa chỉ</h3>
             <p>{address}</p>
+          </div>
+          <div className='mt-8'>
+            <Search />
           </div>
         </div>
         <div className='pl-4'>

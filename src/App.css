@@ -18,3 +18,16 @@
   animation-duration: 2s; /* Thời gian một vòng hoàn thành */
   animation-iteration-count: infinite; /* Lặp vô hạn */
 }
+
+:focus-visible {
+  outline: none;
+}
+
+@keyframes hidePlaceholder {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
+}
